@@ -4,7 +4,7 @@
   "description": "API sistema de gestão de estacionamneto.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/server.js",
+    "start": "nodemon ./bin/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,7 +31,8 @@
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.0",
     "morgan": "^1.10.0",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "nodemon": "^3.0.2"
   },
   "devDependencies": {
     "eslint": "^8.31.0",

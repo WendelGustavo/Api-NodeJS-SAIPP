@@ -1,5 +1,5 @@
-<img alt="Logo" title="Logo" src="./assets/saipp.png" width="100px" margin="40px">
-<h1 align="center">SAIPP - Sistema Autossustentavel de Irrigação para Pequenos Produtores</h1>
+<img alt="Logo" title="Logo" src="https://github.com/WendelGustavo/SAIPPReactNative/blob/main/assets/saipp.png" width="100px" margin="40px">
+<h2 align="center">API - SAIPP ( Sistema Autossustentavel de Irrigação para Pequenos Produtores )</h2>
 
 ### 🛠 Funcionalidades
 

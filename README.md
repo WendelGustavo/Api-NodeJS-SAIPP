@@ -1,44 +1,29 @@
-Node.js API Estrutura Base
+<img alt="Logo" title="Logo" src="./assets/saipp.png" width="100px" margin="40px">
+<h1 align="center">SAIPP - Sistema Autossustentavel de Irrigação para Pequenos Produtores</h1>
 
-Este é um modelo básico para a criação de uma API usando Node.js. A estrutura é projetada para fornecer uma base sólida para o desenvolvimento de aplicativos escaláveis e de fácil manutenção. Siga as instruções abaixo para começar a usar esta estrutura.
+### 🛠 Funcionalidades
 
-Pré-requisitos
-Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em https://nodejs.org/.
+- [x] Cadastro de usuário. 
+- [x] Sistema de Layout que atualiza suas cores conforme o padrão do dispositivo do usuário. 
+- [x] Controle de Umidade do solo.
+- [x] Acionamento de um Sistema de irrigação de forma remota.
+- [x] Acionamento por comando de voz com utilização do Google Assistente.
+- [x] Automação do acionamento do sistema pelo nível de umidade do solo. ( Programado limite mínimo e máximo pelo usuário )
+- [x] Consumo de API (previsão do tempo e consulta de CEP).  
 
-Instalação
-Clone este repositório:
+## 🛠 Tecnologias utilizadas
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Navegue até o diretório do projeto:
+As seguintes ferramentas foram usadas na construção do projeto:
 
-cd nome-do-repositorio
-Instale as dependências:
+- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-npm install
+## 🏆 Premiações conquistadas com o projeto 
 
-Configuração
-Crie um arquivo .env na raiz do projeto e configure as variáveis de ambiente necessárias. Você pode usar o arquivo .env.example como referência.
+- Primeiro lugar na feira de inovação técnologica (FEINTEC) 2022.
+- Segundo lugar VII FIMUCTI - Feira de Ciência, Tecnologia e Inovação do Vale do Café 2022. (Rio de Janeiro)
 
-Configure o arquivo config/config.js de acordo com as suas necessidades.
 
-Execução
-Inicie o servidor:
+## 📄 Licença
 
-npm start
-O servidor estará disponível em http://localhost:3000 por padrão.
+Esse projeto está sob a licença (nome da licença) - acesse os detalhes [LICENSE.md](https://github.com/link_da_licenca).
 
-Estrutura do Projeto
-src/: Contém o código-fonte da aplicação.
-controllers/: Controladores da API.
-models/: Modelos de dados.
-routers/: Definição das rotas da API.
-services/: Lógica de negócios da aplicação.
-config/: Configurações da aplicação.
-index.js: Arquivo principal para iniciar o servidor.
-.env.example: Arquivo de exemplo para configuração das variáveis de ambiente.
-
-Contribuição
-Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos recursos. Crie uma issue ou envie um pull request.
-
-Licença
-Este projeto está licenciado sob a Licença MIT.
